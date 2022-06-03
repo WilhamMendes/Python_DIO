@@ -26,7 +26,7 @@
 # resto_d = d % 2   # Pega o resto da divisão de d por 2
 # resto_e = e % 2
 #
-# #if resto_d == 0 or resto_e == 0:    # Se resto da divisão de d for igual a 0 ou resto da divisão de e for igual a 0
+# #if resto_d == 0 or resto_e == 0:   # Se resto da divisão de d for igual a 0 ou resto da divisão de e for igual a 0
 # if resto_d == 0 or not resto_e > 0:
 #     print('\nVocê digitou um número par!')
 #     if resto_d == 0:
@@ -42,9 +42,9 @@
 
 
 # Calculadora da média de um aluno
-a = int(input("\nInforme a nota do 1º Bimestre: "))
+a = int(input("\nInforme a nota do 1º Bimestre: "))   # Só aceita um numero inteiro digitado pelo usuário
 if a > 10:
-    a = int(input('Você digitou nota errada! Digite novamente a nota do 1º Bimestre: '))
+    a = int(input('Você digitou nota errada! Digite novamente a nota do 1º Bimestre: '))  
 
 b = int(input('informe a nota do 2º Bimestre: '))
 if b > 10:
