@@ -1,4 +1,4 @@
-# # verifica se o número digitado é primo usando if com condicional e for range
+# # Esse programa verifica se o número digitado é primo usando if com condicional e for x in range
 # a = int(input('\nDigite um número para verificar se é primo: '))
 #
 # contador = 0
