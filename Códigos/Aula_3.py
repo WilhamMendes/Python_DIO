@@ -1,13 +1,14 @@
 
 # # OPERADORES CONDICIONAIS
 
-# a = int(input('\nDigite o primeiro valor: '))
+# a = int(input('\nDigite o primeiro valor: ')) # Recebendo valor digitado pelo usuário atravez da iteração
 # b = int(input('Digite o segundo valor: '))
 # c = int(input('Digite o terceiro valor: '))
 #
-# if a > b and a > c:
+# if a > b and a > c:   # Se a é maior que b e a é maior que c
 #     print('\nO maior valor digitado é o primeiro valor, que é o número: {}' .format(a))
-# elif b > a and b > c:
+
+# elif b > a and b > c:  # Se não, se b for maior que a e mair que c
 #     print('\nO maior valor digitado é o segundo valor, que é o número: {}' .format(b))
 # else:
 #     print('\nO maior valor digitado é o terceiro valor, que é número: {}' .format(c))
@@ -22,10 +23,10 @@
 # d = int(input('\nEntre com o primeiro valor: '))
 # e = int(input('Entre com o segundo valor: '))
 #
-# resto_d = d % 2
+# resto_d = d % 2   # Pega o resto da divisão de d por 2
 # resto_e = e % 2
 #
-# #if resto_d == 0 or resto_e == 0:
+# #if resto_d == 0 or resto_e == 0:    # Se resto da divisão de d for igual a 0 ou resto da divisão de e for igual a 0
 # if resto_d == 0 or not resto_e > 0:
 #     print('\nVocê digitou um número par!')
 #     if resto_d == 0:
